@@ -8,6 +8,9 @@ Once it is done, in order to run the example, we need followings:
 - Tables created in test schema. Refer `country.sql` and `employee.sql` for the script
 - Postgre client driver
 - Raw data files `country.csv` and `employee_list.csv`
+- PostgreSQL jdbc driver `postgresql-42.2.26.jar`
+
+Import all those files into your WSL. 
 
 ## Raw data Schema
 
