@@ -12,7 +12,7 @@ Prerequisites:
 - AWS Glue Library
 - Utilities (Zip, Unzip)
 
-# Installing Prereq
+# Installing Prerequisites
 
 ## Enabling WSL on Windows
 
@@ -20,7 +20,7 @@ You can visit this URL https://docs.microsoft.com/en-us/windows/wsl/install-manu
 
 ## Install PostgreSQL 14 on your host Windows machine
 
-Download PostgreSQL 14 from https://www.postgresql.org/download/
+Download and install PostgreSQL 14 from https://www.postgresql.org/download/
 
 ## Enable PostgreSQL to accept connection from WSL
 
@@ -49,7 +49,7 @@ Unfortunately I couldn't find the exact specification for the WSL2 IP address ra
 
 ### Configure Postgres to Accept Connections from WSL2 IP Addresses
 
-Assuming a default install/setup of Postgresql for Windows the following files are located under C:\Program Files\PostgresSQL\<<Version>>\data
+Assuming a default install/setup of Postgresql for Windows the following files are located under C:\Program Files\PostgresSQL\14\data
 
 Verify that `postgresql.conf` has following set:
 
