@@ -29,7 +29,7 @@ Import all those files into your WSL.
 
 ## ETL Business Function
 
-In the `glue-etl-example.py` script, I've used the PostgreSQL host IP address and port #. Please makesure to specify the host IP address and port # from your machine.
+In the `glue-etl-example.py` script, I've used the PostgreSQL host IP address and port #. Please make sure to specify the host IP address and port # from your machine.
 
 In WSL2 you need to use host IP to connect. To get host IP
 
@@ -39,7 +39,7 @@ grep nameserver /etc/resolv.conf | awk '{print $2}'
 
 ### Country table standardization
 
-- Load `country.csv` data into a dataframe which doesnt have proper sequence value
+- Load `country.csv` data into a dataframe which does not have proper sequence value
 - Using `zipWithIndex` method to generate new sequence value (starting from 1, 2, ...)
 - Save this new dataframe data into `country` table
 
@@ -55,4 +55,4 @@ grep nameserver /etc/resolv.conf | awk '{print $2}'
 
 ## Any queries?
 
-Please feel free to reach me out in case if you have any queries. Happy Learning!!!
+Please feel free to reach me out in case you have any queries. Happy Learning!!!
